@@ -6,7 +6,7 @@
       "script": "start",
       "problemMatcher": [],
       "label": "npm: start",
-      "detail": "tsx src/main.ts",
+      "detail": "ts-node src/main.ts",
       "group": {
         "kind": "build",
         "isDefault": true

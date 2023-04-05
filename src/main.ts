@@ -58,6 +58,14 @@ const headless = false;
     });
   }
 
+  await page.mouse.wheel(0, -height);
+  await setTimeout(scrollWait);
+
+  await page.screenshot({
+    path: `output/${sanitize(title)}_full.png`,
+    fullPage: true,
+  });
+
   await browser.close();
 
   sharp({

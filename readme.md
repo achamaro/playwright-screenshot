@@ -25,5 +25,5 @@ const headless = false;
 ## Usage
 
 ```
-npx tsx src/main.ts
+npx ts-node src/main.ts
 ```
